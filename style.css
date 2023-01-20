@@ -1,0 +1,55 @@
+.container {
+    margin: 20% auto;
+    background-color: rgb(76, 48, 236);
+}
+
+.container P {
+    color: #e99cc0;
+    font-size: 20PX;
+    font-weight: bold;
+}
+
+.seccionEntrada {
+    margin: 12px 0;
+}
+
+.seccionEntrada input {
+    background-color: rgb(81, 223, 241);
+    text-align: center;
+    border-style: dashed;
+    border-radius: .5rem;
+    width: 100%;
+}
+
+.seccionEntrada label {
+    display: block;
+    text-align: center;
+    color: #e99cc0;
+}
+
+.Seccioncalculo button{
+    width:7rem;
+    height: 3rem;
+    padding: 3px;
+    margin: 12px 0;
+    font-weight: 700;
+    border-radius: 8%;
+    border: none;
+    background-color: #e99cdc;
+    border-radius: 1rem;
+}
+
+.seccionResultado textarea {
+    background-color: rgb(81, 223, 241);
+    border-style: dashed;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .seccionEntrada input {
+        margin: .3rem auto;
+        width: 12rem;
+        height: 3rem;
+    }
+}
